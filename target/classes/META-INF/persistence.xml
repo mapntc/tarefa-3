@@ -8,7 +8,7 @@
 		transaction-type="RESOURCE_LOCAL">
 		<properties>
 			<property name="javax.persistence.jdbc.url"
-				value="jdbc:mysql://localhost/db_hotel?useSSL=false&amp;serverTimezone=UTC" />
+				value="jdbc:mysql://localhost/db_hotel?allowPublicKeyRetrieval=true&amp;useSSL=false&amp;serverTimezone=UTC" />
 			<property name="javax.persistence.jdbc.driver"
 				value="com.mysql.jdbc.Driver" />
 			<property name="javax.persistence.jdbc.user" value="developer" />
